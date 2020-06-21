@@ -6,7 +6,7 @@ This is a simple react js project created with **Create-react-app**. implementin
 
 Clone the current repo and just execute :
 
-> npm install
+> npm install &&
 > npm start
 
 # run tests
