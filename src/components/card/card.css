@@ -1,0 +1,72 @@
+.card-container {
+    width: 40%;
+    height: 70%;
+    background: white;
+    border-radius: 4px;
+    -webkit-box-shadow: 10px 10px 12px -4px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 12px -4px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 12px -4px rgba(0, 0, 0, 0.75);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.input-btn-container {
+    width: 60%;
+    height: 20%;
+}
+
+.card-input {
+    width: 100%;
+    height: 2rem;
+    border: none;
+    font-size: 1.3rem;
+    background: transparent;
+    transition: border-color 1s;
+    border-bottom: 2px solid #9b9b9b;
+    outline: none;
+}
+
+.card-input:hover,
+.card-input:focus {
+    border-width: 3px;
+    border-image: linear-gradient(to right, #e2d624, #e4772e);
+    border-image-slice: 1;
+}
+
+.submit-btn {
+    width: 200px;
+    height: 50px;
+    background: linear-gradient(to right, #e2d624, #e4772e);
+    border: none;
+    outline: none;
+    margin: 2% auto;
+    border-radius: 50px;
+    font-family: inherit;
+    font-size: 1.5rem;
+    cursor: pointer;
+}
+
+
+.todo-list {
+    width: 70%;
+    height: 55%;
+    overflow-y: auto;
+    margin: 0;
+    padding: 0;
+    scrollbar-color: #282c34 white;
+    scrollbar-width: thin
+}
+
+::-webkit-scrollbar {
+    width: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: white;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #282c34;
+}

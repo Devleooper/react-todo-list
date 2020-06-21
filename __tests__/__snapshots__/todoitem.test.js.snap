@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="item-container"
+>
+  <h3 />
+  <div
+    className="side-btn"
+  >
+    <button
+      className="delete-btn"
+    >
+      <span
+        aria-label="delete"
+        role="img"
+      >
+        ❌
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`renders correctly with text 1`] = `
+<div
+  className="item-container"
+>
+  <h3>
+    this is a snapshot test
+  </h3>
+  <div
+    className="side-btn"
+  >
+    <button
+      className="delete-btn"
+    >
+      <span
+        aria-label="delete"
+        role="img"
+      >
+        ❌
+      </span>
+    </button>
+  </div>
+</div>
+`;

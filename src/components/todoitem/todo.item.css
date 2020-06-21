@@ -1,0 +1,38 @@
+.item-container {
+    width: 100%;
+    height: min-content;
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 4px;
+    background-image: linear-gradient(to left, #24e26d, #2ec0e4);
+    margin: 2% auto;
+}
+
+
+.item-container>h3 {
+    width: 80%;
+    height: 100%;
+}
+
+
+.side-btn {
+    width: 20%;
+    height: 100%;
+}
+
+
+.delete-btn {
+    height: 100%;
+    border: 0;
+    background: transparent;
+    border-radius: 4px;
+    cursor: pointer;
+    outline: none;
+}
+
+.delete-btn>span {
+    font-size: 20pt;
+}

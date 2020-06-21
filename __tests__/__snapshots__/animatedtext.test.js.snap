@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should render correctly 1`] = `
+<div>
+  <h1 />
+</div>
+`;
+
+exports[`should render correctly with props 1`] = `
+<div
+  style={
+    Object {
+      "color": "#282c34",
+      "fontSize": "36pt",
+      "textAlign": "center",
+    }
+  }
+>
+  <h1>
+    +1
+  </h1>
+</div>
+`;

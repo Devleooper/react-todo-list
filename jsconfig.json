@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+        "target": "es6",
+        "jsx": "react"
+    },
+    "typeAcquisition": {
+        "include": [
+            "jest"
+        ],
+        "exclude": [
+            "node_modules",
+            "assets"
+        ]
+    }
+}

@@ -1,0 +1,35 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="card-container"
+>
+  <h1>
+    Todo List  
+    <span
+      aria-label="fire"
+      role="img"
+    >
+      🔥
+    </span>
+  </h1>
+  <h3>
+     you have inserted 
+    0
+     items 
+  </h3>
+  <div
+    className="input-btn-container"
+  >
+    <input
+      className="card-input"
+      onChange={[Function]}
+      placeholder="insert a value.."
+      value=""
+    />
+  </div>
+  <ul
+    className="todo-list"
+  />
+</div>
+`;
