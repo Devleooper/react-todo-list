@@ -17,7 +17,6 @@ you can run the tests executing the **Create-react-app** default way
 
 if you want to execute by command line just need to install jest cli and execute inside the root project folder
 
-> jest
 > jest --coverage (coverage report)
 
 I am actually learning , any feedback will be well receipt!
